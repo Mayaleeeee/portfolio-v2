@@ -73,10 +73,7 @@ export default function Contact() {
                             <ContactCard />
                         </div>
                         <div className={styles.random_image}>
-                            <p>
-                                {" "}
-                                <AnimatedText content="Random images from Unsplash" />
-                            </p>
+                                <Image fill={true} src="/unsplash.jpg" alt="unsplash image" />
                         </div>
                     </div>
                     <div className={styles.contactform}>

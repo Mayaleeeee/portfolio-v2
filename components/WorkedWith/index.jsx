@@ -9,14 +9,19 @@ import styles from "./styles.module.css";
 
 export const projects = [
     {
-        title: "Biorce",
-        image: "biorce.svg",
-        link: "https://www.biorce.com/",
+        title: "Tuist",
+        image: "tuist.svg",
+        link: "https://tuist.dev/",
     },
     {
         title: "GNOME Foundation",
         image: "gnome.svg",
         link: "https://foundation.gnome.org/",
+    },
+    {
+        title: "The Linux Foundation",
+        image: "lfx.svg",
+        link: "https://www.linuxfoundation.org/",
     },
     {
         title: "Quansight",
@@ -39,11 +44,6 @@ export const projects = [
         link: "https://weaviate.io/",
     },
     {
-        title: "The Linux Foundation",
-        image: "lfx.svg",
-        link: "https://www.linuxfoundation.org/",
-    },
-    {
         title: "conda.org",
         image: "conda.svg",
         link: "https://conda.org/",
@@ -57,6 +57,11 @@ export const projects = [
         title: "ORAS Project",
         image: "oras.svg",
         link: "https://oras.land/",
+    },
+    {
+        title: "Biorce",
+        image: "biorce.svg",
+        link: "https://www.biorce.com/",
     },
 ];
 

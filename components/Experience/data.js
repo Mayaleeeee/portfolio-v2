@@ -1,10 +1,30 @@
 const details = [
     {
-        position: "UX/UI Designer",
-        work: [""],
+        position: "Product Designer",
+        work: [
+            "First Product Designer at Tuist, establishing and leading design initiatives from the ground up.",
+            "Creating Noora, an accessible and scalable design system and style guide for CLI and dashboard to ensure consistency and efficiency in product development.",
+            "Designing a developer dashboard tailored for the Apple app development ecosystem.",
+            "Spearheading brand revamp, including the company’s branding, website, and key marketing assets.",
+        ],
+        company: "Tuist",
+        companyLink: "https://tuist.dev",
+        time: "12, 2024 - Present",
+        address: "Germany (Hybrid)",
+        color: "#1A004B",
+        bgcolor: "#F4F4FF",
+    },
+    {
+        position: "Product Designer",
+        work: [
+            "First product designer at Biorce, spearheading design initiatives from the ground up.",
+            "Built an accessible, scalable design system and style guide from the ground up, enabling consistency and efficiency in product development.",
+            "Played a critical role in the creation of Jarvis, Biorce's AI-powered flagship product, by designing the MVP to meet complex user needs in the healthcare sector.",
+            "Led efforts in the redesign of the company website for a more cohesive user experience.",
+        ],
         company: "Biorce",
         companyLink: "https://www.biorce.com/",
-        time: "03, 2024 - Present",
+        time: "03, 2024 - 12, 2024",
         address: "Spain (Remote)",
         color: "#001A4F",
         bgcolor: "#E1FBFF",
@@ -12,9 +32,10 @@ const details = [
     {
         position: "UX Intern",
         work: [
-            "Developing prototypes and wireframes for intricate JSON components.",
-            "Performing user research to refine methods for visually presenting JSON Schema in documentation, aimed at improving user experience and accessibility.",
-            "Collaborating with the founder and lead designer to strategize plans for upcoming releases.",
+            "Developed prototypes and wireframes for intricate JSON components.",
+            "Performed user research to refine methods for visually presenting AsyncAPI specification, aimed at improving user experience and accessibility.",
+            "Contributed to the design of generated documentation by simplifying JSON Schema representation, enhancing the visual design of AsyncAPI files and event-driven architecture.",
+            "Collaborated with the founder, lead designer and stakeholders to strategize plans for upcoming releases.",
         ],
         company: "AsyncAPI",
         companyLink: "https://www.asyncapi.com/",

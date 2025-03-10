@@ -34,7 +34,7 @@ export default function About() {
             <div className={styles.info_text}>
                 <div className={styles.info_text_content}>
                     <p>
-                        <AnimatedText content="My name is Asmit Malakannawar, and I'm a product designer from India. I am currently a student pursuing computer science. So, why product design?" />
+                        <AnimatedText content="My name is Asmit Malakannawar, and I'm a product designer from Berlin, Germany. I am currently working at Tuist GmbH as a product designer. So, why product design?" />
                         <br />
                         <br />
                         <AnimatedText content="Over time, I've been drawn to the creative side of things — manipulating pixels and curating the visual language of applications — rather than getting lost in the complexities of finding the optimal data structure or the quickest algorithm." />

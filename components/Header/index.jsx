@@ -67,7 +67,7 @@ export default function Header() {
                             <AnimatedText content="A product designer and an open source enthusiast." />
                             <br />
                             <AnimatedText content="Currently working" />
-                            <Link href="https://www.biorce.com/">@Biorce</Link>
+                            <Link href="https://tuist.dev/">@Tuist</Link>
                         </p>
                     </div>
                     <div className={styles.resume_project}>
@@ -81,7 +81,7 @@ export default function Header() {
                             <div className={styles.view_buttons}>
                                 <Link
                                     target="_blank"
-                                    href="https://drive.google.com/file/d/1widnWPHsEyAQaInQxYVlgVemt1bjdDwp/view?usp=sharing"
+                                    href="https://drive.google.com/file/d/11tmWw0Fetv_ick1xp--swpGFsiuVck1-/view?usp=sharing"
                                 >
                                     <h5>Resume.</h5>
                                 </Link>

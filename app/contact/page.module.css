@@ -65,18 +65,15 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    background: url(https://source.unsplash.com/random/?art);
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
     position: relative;
 }
 
-.random_image p {
-    padding: 5px;
-    color: #fff;
+.random_image img {
+    border-radius: 25px;
 }
 
 .contact_card {
