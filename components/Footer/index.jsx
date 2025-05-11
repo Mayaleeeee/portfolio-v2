@@ -26,10 +26,10 @@ export default function Footer() {
                 <div className={styles.section}>
                     <div className={styles.title}>
                         <h1>
-                            <AnimatedTitle title="Ready to" />
+                            <AnimatedTitle title="Available" />
                         </h1>
                         <h1>
-                            <AnimatedTitle title="Collaborate?" />
+                            <AnimatedTitle title="to Work." />
                         </h1>
                     </div>
                     <div className={styles.nav}>
@@ -37,7 +37,7 @@ export default function Footer() {
                             <Tooltip label="Hey, Let's Talk">
                                 <Link
                                     target="_blank"
-                                    href="mailto:asmitbm2952002@gmail.com"
+                                    href="mailto:muibudeenaishat@gmail.com"
                                 >
                                     <AnimatedText content="email" />
                                 </Link>
@@ -47,7 +47,7 @@ export default function Footer() {
                             <Tooltip label="Design Stuff <3">
                                 <Link
                                     target="_blank"
-                                    href="https://www.behance.net/asmitbm"
+                                    href="https://www.behance.net/muibudeenaisha"
                                 >
                                     <AnimatedText content="behance" />
                                 </Link>
@@ -57,7 +57,7 @@ export default function Footer() {
                             <Tooltip label="My OSS Stuff :)">
                                 <Link
                                     target="_blank"
-                                    href="https://github.com/asmitbm"
+                                    href="https://github.com/Mayaleeeee"
                                 >
                                     <AnimatedText content="github" />
                                 </Link>
@@ -67,7 +67,7 @@ export default function Footer() {
                             <Tooltip label="I'm Here Most Often">
                                 <Link
                                     target="_blank"
-                                    href="https://twitter.com/asmitbm"
+                                    href="https://x.com/maya_ux_ui"
                                 >
                                     <AnimatedText content="twitter" />
                                 </Link>
@@ -77,19 +77,9 @@ export default function Footer() {
                             <Tooltip label="Experiences Here">
                                 <Link
                                     target="_blank"
-                                    href="https://www.linkedin.com/in/asmitbm/"
+                                    href="https://www.linkedin.com/in/aishatmuibudeen"
                                 >
                                     <AnimatedText content="linkedin" />
-                                </Link>
-                            </Tooltip>
-                        </div>
-                        <div className={styles.button}>
-                            <Tooltip label="All My Links">
-                                <Link
-                                    target="_blank"
-                                    href="https://asmit.bio.link/"
-                                >
-                                    <AnimatedText content="bio.link" />
                                 </Link>
                             </Tooltip>
                         </div>
@@ -100,9 +90,9 @@ export default function Footer() {
                     <div>
                         <Link
                             target="_blank"
-                            href="https://github.com/asmitbm/portfolio-v2"
+                            href="https://github.com/Mayaleeeee/portfolio-v2"
                         >
-                            <h3>Designed & Built by Asmit Malakannawar</h3>
+                            <h3>Original design by Asmit. Modified by Maya & Noimot</h3>
                         </Link>
                     </div>
                 </div>

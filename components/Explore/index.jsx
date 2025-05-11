@@ -56,14 +56,14 @@ export default function Explore() {
                     <Link
                         target="_blank"
                         className={styles.figma_link}
-                        href="https://www.figma.com/@asmitbm"
+                        href="https://medium.com/@muibudeenaishat"
                     >
                         <div className={styles.figma_image}>
-                            <Image src="figma.svg" alt="image" fill={true} />
+                            {/* <Image src="figma.svg" alt="image" fill={true} /> */}
                         </div>
                         <div className={styles.figma_text}>
                             <h3>
-                                <AnimatedText content="Dive into my collection of Figma assets!" />
+                                <AnimatedText content="Explore my blog writing on Medium!" />
                             </h3>
                         </div>
                     </Link>
@@ -75,7 +75,7 @@ export default function Explore() {
                     <Link href="/projects">
                         <div className={styles.info_text_one}>
                             <p>
-                                <AnimatedText content="Like these projects?" />
+                                <AnimatedText content="Like what you see?" />
                             </p>
                         </div>
                         <div className={styles.info_text_two}>

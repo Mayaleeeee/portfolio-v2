@@ -9,24 +9,24 @@ import styles from "./styles.module.css";
 
 export const projects = [
     {
-        title: "Tuist",
-        image: "tuist.svg",
-        link: "https://tuist.dev/",
+        title: "Oppia",
+        image: "Oppia.png",
+        link: "https://www.oppia.org/",
     },
     {
-        title: "GNOME Foundation",
-        image: "gnome.svg",
+        title: "Knative",
+        image: "Knative.png",
         link: "https://foundation.gnome.org/",
     },
     {
-        title: "The Linux Foundation",
-        image: "lfx.svg",
-        link: "https://www.linuxfoundation.org/",
+        title: "Outreachy",
+        image: "outreachy-copy.png",
+        link: "",
     },
     {
-        title: "Quansight",
-        image: "quansight.svg",
-        link: "https://labs.quansight.org/",
+        title: "She Code Africa",
+        image: "SheCodeAfrica.png",
+        link: "https://shecodeafrica.org/",
     },
     {
         title: "AsyncAPI Initiative",
@@ -37,32 +37,7 @@ export const projects = [
         title: "Cloud Native Computing Foundation",
         image: "cncf.svg",
         link: "https://www.cncf.io/",
-    },
-    {
-        title: "Weaviate",
-        image: "weaviate.svg",
-        link: "https://weaviate.io/",
-    },
-    {
-        title: "conda.org",
-        image: "conda.svg",
-        link: "https://conda.org/",
-    },
-    {
-        title: "conda-forge",
-        image: "conda-forge.svg",
-        link: "https://conda-forge.org/",
-    },
-    {
-        title: "ORAS Project",
-        image: "oras.svg",
-        link: "https://oras.land/",
-    },
-    {
-        title: "Biorce",
-        image: "biorce.svg",
-        link: "https://www.biorce.com/",
-    },
+    }
 ];
 
 export default function WorkedFor() {
@@ -79,7 +54,7 @@ export default function WorkedFor() {
                     </div>
                     <div className={styles.header_para}>
                         <p>
-                            <AnimatedText content="Organizations I contributed to" />
+                            <AnimatedText content="Organisations I have Worked With" />
                         </p>
                     </div>
                 </div>
@@ -127,6 +102,7 @@ export default function WorkedFor() {
                                                     src={`/work/${project.image}`}
                                                     width={100}
                                                     height={50}
+                                                    className="w-full"
                                                 />
                                             </Link>
                                         </div>

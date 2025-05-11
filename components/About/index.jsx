@@ -55,13 +55,16 @@ export default function About() {
                         <div className={styles.aboutme_text_heading}>
                             <div className={styles.aboutme_niceto}>
                                 <h1>
-                                    <AnimatedTitle title="Nice to" />
+                                    <AnimatedTitle title="Designer." />
                                 </h1>
                             </div>
                             <div className={styles.aboutme_meetyou}>
                                 <h1>
-                                    <AnimatedTitle title="meet you :)" />
+                                    <AnimatedTitle title="Researcher." />
                                 </h1>
+                                <h2>
+                                    <AnimatedTitle title="Open Source Enthusiast." />
+                                </h2>
                             </div>
                         </div>
                         <div className={styles.aboutme_text_line}>
@@ -71,7 +74,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className={styles.aboutme_photo}>
-                        <Image fill={true} src="/dp.webp" alt="aboutme image" />
+                        <Image fill={true} src="/dp.png" alt="aboutme image" />
                     </div>
                 </motion.div>
             </Link>

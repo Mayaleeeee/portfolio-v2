@@ -16,7 +16,7 @@ const links = [
     },
     {
         title: "Blog",
-        href: "https://dev.to/asmitbm",
+        href: "https://medium.com/@muibudeenaishat",
         target: "_blank",
     },
     {

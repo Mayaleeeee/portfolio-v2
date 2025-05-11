@@ -21,6 +21,22 @@ export default function Experience() {
         );
     });
 
+    const LeadershipCards = data.leadershipDetails.map((item, index) => {
+        return (
+            <ExperienceCard
+                key={index}
+                position={item.position}
+                company={item.company}
+                companyLink={item.companyLink}
+                work={item.work}
+                time={item.time}
+                address={item.address}
+                color={item.color}
+                bgcolor={item.bgcolor}
+            />
+        );
+    });
+
     return (
         <div className={styles.background_image}>
             <div className={styles.experience}>
@@ -30,6 +46,14 @@ export default function Experience() {
                     </h1>
                 </div>
                 <div className={styles.experience_cards}>{ExperienceCards}</div>
+            </div>
+            <div className={styles.experience}>
+                <div className={styles.header_name}>
+                    <h1>
+                        <AnimatedTitle title="Leadership and Community" />
+                    </h1>
+                </div>
+                <div className={styles.experience_cards}>{LeadershipCards}</div>
             </div>
         </div>
     );

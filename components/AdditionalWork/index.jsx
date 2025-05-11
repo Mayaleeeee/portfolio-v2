@@ -52,7 +52,7 @@ export default function AdditionalWork() {
             </div>
             <div className={styles.graphic_design}>
                 <p>
-                    <AnimatedText content="Off the clock I find joy in graphic and icon design 👇" />
+                    <AnimatedText content="Off the Clock I find myself in motion design & learning German 👇" />
                 </p>
             </div>
         </motion.div>

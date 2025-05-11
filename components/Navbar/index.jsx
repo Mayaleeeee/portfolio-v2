@@ -40,7 +40,7 @@ export default function Navbar() {
                 <div className={styles.brand}>
                     <Link href="/">
                         <Image
-                            src="/am.svg"
+                            src="/mayas-logo.jpeg"
                             alt="logo"
                             width={70}
                             height={30}

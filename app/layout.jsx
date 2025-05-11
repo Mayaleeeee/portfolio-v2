@@ -8,9 +8,9 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-    title: "Asmit Malakannawar",
+    title: "Aishat Muibudeen",
     description:
-        "Welcome to Asmit's digital space! He is a product designer from India. This is where he shares all the design stuff that he has worked on.",
+        "Welcome to Aishat's digital space! She is a product designer from Nigeria. This is where she shares all the design stuff that she has worked on.",
 };
 
 export default function RootLayout({ children }) {

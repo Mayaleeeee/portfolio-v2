@@ -24,7 +24,7 @@
 
 .info_text_one p {
     color: #000000;
-    font-size: clamp(2rem, 1vw + 0.5rem, 3rem);
+    font-size: clamp(2rem, 1vw + 0.7rem, 3rem);
     font-weight: 600;
 }
 

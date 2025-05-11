@@ -26,20 +26,20 @@ export const EmailTemplate = ({ senderName, messageBody }) => (
                         <li>
                             <a
                                 target="_blank"
-                                href="https://drive.google.com/file/d/1widnWPHsEyAQaInQxYVlgVemt1bjdDwp/view?usp=sharing"
+                                href="https://github.com/Mayaleeeee"
                             >
-                                Resume
+                                Github
                             </a>
                         </li>
                         <li>
-                            <a target="_blank" href="https://www.asmitbm.me/">
-                                Portfolio Website
+                            <a target="_blank" href="https://x.com/maya_ux_ui">
+                                X
                             </a>
                         </li>
                         <li>
                             <a
                                 target="_blank"
-                                href="https://www.behance.net/asmitbm"
+                                href="https://www.behance.net/muibudeenaisha"
                             >
                                 Behance
                             </a>
@@ -47,14 +47,9 @@ export const EmailTemplate = ({ senderName, messageBody }) => (
                         <li>
                             <a
                                 target="_blank"
-                                href="https://www.figma.com/@asmitbm"
+                                href="https://www.linkedin.com/in/aishatmuibudeen"
                             >
-                                Figma Resources
-                            </a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="https://asmit.bio.link/">
-                                Bio.link
+                                linkedin
                             </a>
                         </li>
                     </ul>
@@ -66,7 +61,7 @@ export const EmailTemplate = ({ senderName, messageBody }) => (
             <div>
                 <p>Have a good day! 😊</p>
                 <p>Thanks & Regards</p>
-                <p>Asmit Malakannawar</p>
+                <p>Aishat Muibudeen</p>
             </div>
         </div>
     </div>

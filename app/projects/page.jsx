@@ -4,9 +4,9 @@ import AnimatedText from "@/components/Animations/AnimatedText";
 import styles from "./page.module.css";
 
 export const metadata = {
-    title: "Projects by Asmit Malakannawar",
+    title: "Projects by Aishat Muibudeen",
     description:
-        "See what Asmit has been working on! Explore Asmit's projects and case studies to see the creative solutions that he has crafted.",
+        "See what Aishat has been working on! Explore Aishat's projects and case studies to see the creative solutions that he has crafted.",
 };
 
 export default function Project() {

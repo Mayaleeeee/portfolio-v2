@@ -55,19 +55,22 @@ export default function Header() {
                             <AnimatedTitle title="Hello" />
                         </h1>
                     </div>
-                    <div className={styles.header_asmit}>
+                    <div>
                         <h1>
-                            <AnimatedTitle title="I'm Asmit." />
+                            <AnimatedTitle title="I'm Aishat" />
+                        </h1>
+                        <h1>
+                            <AnimatedTitle title="(preferred name: Maya)" />
                         </h1>
                     </div>
                 </div>
                 <div className={styles.header_para}>
                     <div className={styles.para}>
                         <p>
-                            <AnimatedText content="A product designer and an open source enthusiast." />
+                            <AnimatedText content=" a Product Designer with experience in UX Research and a love for open source. Volunteering as a Design Maintainer/Manager" />
                             <br />
-                            <AnimatedText content="Currently working" />
-                            <Link href="https://tuist.dev/">@Tuist</Link>
+                            {/* <AnimatedText content="Currently working" /> */}
+                            <a href="https://www.asyncapi.com/" target="_blank">@ AsyncAPI</a>
                         </p>
                     </div>
                     <div className={styles.resume_project}>
@@ -81,7 +84,7 @@ export default function Header() {
                             <div className={styles.view_buttons}>
                                 <Link
                                     target="_blank"
-                                    href="https://drive.google.com/file/d/11tmWw0Fetv_ick1xp--swpGFsiuVck1-/view?usp=sharing"
+                                    href="https://docs.google.com/document/d/1f9ICHESesu9CYE235K2lG0OSpzTGJB0oZOIirVqVPsQ/edit?usp=drive_link"
                                 >
                                     <h5>Resume.</h5>
                                 </Link>

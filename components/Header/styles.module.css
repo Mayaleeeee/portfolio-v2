@@ -30,7 +30,7 @@
 }
 
 .header_name h1 {
-    font-size: clamp(3rem, 5vw + 0.9rem, 6rem);
+    font-size: clamp(3rem, 3vw + 0.9rem, 6rem);
     font-weight: 600;
 }
 

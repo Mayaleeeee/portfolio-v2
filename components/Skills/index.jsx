@@ -50,7 +50,7 @@ export default function Skills() {
             >
                 <div className={styles.title}>
                     <p>
-                        <AnimatedText content="Design + Tech" />
+                        <AnimatedText content="Design + Research" />
                     </p>
                 </div>
 
@@ -68,7 +68,7 @@ export default function Skills() {
                         <AnimatedText content="Design Prototyping" />
                     </h3>
                     <p>
-                        <AnimatedText content="Figma, Excalidraw, Balsamiq, Framer, Adobe Creative Suite, ChatGPT" />
+                        <AnimatedText content="Figma, Penpot, Framer, Adobe Creative Suite, Phase" />
                     </p>
                 </div>
 
@@ -86,7 +86,7 @@ export default function Skills() {
                         <AnimatedText content="Design Skills" />
                     </h3>
                     <p>
-                        <AnimatedText content="Wireframing, Accessibility, Icon Design, Design Systems, Prototyping, Interaction Design, Visual Design" />
+                        <AnimatedText content="Wireframing, Accessibility, Design Systems, UX Writing,  Visual Design" />
                     </p>
                 </div>
 
@@ -98,7 +98,7 @@ export default function Skills() {
                         <AnimatedText content="User Research" />
                     </h3>
                     <p>
-                        <AnimatedText content="A/B Testing, Focus Groups, Usability Testing, User Personas, Heuristic Analysis, Survey Development" />
+                        <AnimatedText content="A/B Testing, Foundational Research, Usability Study, User Interview, Storytelling" />
                     </p>
                 </div>
 
@@ -116,7 +116,7 @@ export default function Skills() {
                         <AnimatedText content="Front-End Development" />
                     </h3>
                     <p>
-                        <AnimatedText content="JavaScript, HTML, Tailwind CSS, React.js, Material UI, Bootstrap" />
+                        <AnimatedText content="HTML, Tailwind CSS, CSS, R" />
                     </p>
                 </div>
             </motion.div>

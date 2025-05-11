@@ -1,0 +1,174 @@
+---
+title: "AsyncAPI Website Redesign"
+type: "Project"
+date: "2025-01-24"
+image: "/projects/AsyncAPI_WebsiteR.png"
+location: "Spain (Remote)"
+year: "2025"
+role: "Lead Designer/Technical Steering Committee"
+for: "Asyncapi Initiative"
+timeline: "Feb 2024 - Feb 2025"
+color: "#7C002D"
+bgcolor: "#FFE9EF"
+---
+
+## Overview
+
+[ASYNCAPI](https://www.asyncapi.com/) is an open-source specification for building and documenting event-driven APIs, similar to how OpenAPI works for REST. It helps teams create better, more consistent messaging architectures for systems that rely on events, messages, and queues.
+
+Over the years, it's grown into a global community with over 2,000 contributors on [GitHub](https://github.com/asyncapi), working across tools, docs, and infrastructure to make event-driven development more approachable and collaborative.
+
+
+## The Challenge
+
+The AsyncAPI website has grown over the years, with contributions and updates made by many hands. However, as the project evolved, the site struggled to keep up. As a result, it started showing cracks in its usability and structure.
+
+As the Lead Design Maintainer, I noticed how overwhelming and unintuitive it had become. Navigation was clunky, content was hard to digest, and accessibility wasn't where it was needed. It didn’t feel like a space that reflected the strength of the AsyncAPI community.
+
+Though these weren’t just my observations, over time, contributors raised 90+ issues highlighting similar pain points—poor navigation, inconsistent UI, and an overall frustrating experience. Developers especially found it difficult to know where to start or what AsyncAPI could do.
+
+Beyond usability, there were also serious accessibility gaps — the site didn’t fully follow Web Content Accessibility Guidelines (WCAG), which meant some users were unintentionally left out. And that didn’t sit right with me.
+It was clear something had to change—not through a full overhaul all at once, but with careful, focused improvements that improve the developer experience. I set out to redesign the site to feel more intuitive, accessible, and developer-friendly, starting with the pages that mattered most.
+
+
+## The solutions
+
+Redesigning an open-source website isn’t something you just do, especially not in a community-led project like AsyncAPI, where transparency, discussion, and collaboration are essential.
+
+After identifying the major issues through the UX audit, my next step wasn’t jumping into Figma. It was starting a conversation. I created a discussion proposal on GitHub explaining what I found and why a redesign was necessary. I wanted feedback from contributors, maintainers, and everyday site users. **What resonated with them? What were their pain points? Were they seeing the same things I was?**
+
+Once we aligned on the need for change, I focused on two key pages: the Homepage and the Community page. These had the highest traffic (confirmed through analytics) and the most reported usability issues.
+
+And I didn’t want to throw everything out and start over. As Steve Krug puts it in Don’t Make Me Think:
+>When redesigning a site, don’t just throw everything out and start over. Unless the site is a complete disaster, you’re better off improving it gradually
+
+With that mindset, I built a design system (which I explore further in another case study), giving us a consistent, accessible foundation for development and scaling.
+
+From there, I redesigned the structure and components of both pages: the focus, clarity, accessibility (following WCAG 2.0 and AAA standards), and simplicity. I stripped away noise, cleaned up the navigation, and made it easier for developers to understand what AsyncAPI is and how to get involved.
+
+
+## The Outcome
+
+The redesigned Homepage and Community pages addressed key issues of accessibility, usability, and clarity, aligning with WCAG 2.0 and AAA guidelines. 
+
+Although the designs haven’t been implemented yet, they serve as a blueprint for improvements to the site.
+
+These pages are the foundation for a broader redesign effort, part of a [Google Summer of Code (GSoC) 2025 project](https://github.com/asyncapi/website/issues/3669#issue-2845831606). I’m mentoring a designer who will take these concepts and extend them across other key parts of the website, bringing the vision to life.
+
+
+## The Process
+
+I began by checking out documentation sites from different organizations, ranging from open-source projects to billion dollar companies (everyone needs documentation).
+
+Drawing from my background as a technical writer and my experiences with documentation frameworks like Docusaurus, Docsify, GitBook, etc., I took note of key elements on these websites. This included things like search tools, how the documentation was organized, and the layout of the content. I then compiled a list of features that combined all these components.
+
+![analysis of documentation websites](/articles/appwrite/analysis.webp)
+
+## Designing Components
+
+-   **Top Navigation and a search box**
+
+-   **SDK and Version Selector**
+
+-   **Side Navigation Bar with Dropdown**
+
+-   **In-page Navigation**
+
+-   **Prev/Next Doc Navigation**
+
+-   **Feedback**
+
+-   **Tables**
+
+### Top Navigation and a search box
+
+**Top Navigation Bar**
+
+The top navigation bar is directly taken from Pink design system with a few modifications. I have added additional components such as search bar and theme switcher (from Choice selectors).
+
+![top-navigation](/articles/appwrite/top-navigation.webp)
+
+**Search Box**
+
+The default place of search box for the entire documentation site would be the navigation bar as it will be readily available for the users to use that feature.
+
+When a user searches for a term, they will receive results from various pieces of documentation from across the site, which are organized in a list format with appropriate document headings.
+
+![search box](/articles/appwrite/search.webp)
+
+### SDK and Version Selector
+
+**The initial phase**
+
+While browsing Appwrite's Docs, I discovered that, unlike other documentation sites, not all pages require an SDK or version selector. They are needed only for References Documentation. This got me thinking about whether this selector should be dynamic and only available when users arrive at References Docs. Thus I took inspiration from GitHub’s documentation and created a rather new component for this.
+
+![sdk and version selector](/articles/appwrite/sdk.webp)
+
+**The Design**
+
+There are two different sections in this component:
+
+-   Client
+-   Server
+
+Only one of the section will be active at a time, whichever the user selects.
+
+![sdk and version selector](/articles/appwrite/initial-sdk.webp)
+
+![sdk and version selector](/articles/appwrite/expanded-sdk.webp)
+
+![sdk and version selector](/articles/appwrite/sdk-dark.webp)
+
+### Side Navigation Bar with Dropdown
+
+The side navigation bar is based on the Pink design system, with a few changes. I've added dropdown arrows to make it easier to identify subdocument pages under a main title. I used bold text and hover/select highlights to indicate which documentation page the user is on.
+
+![side navigation](/articles/appwrite/side-nav.webp)
+
+### In-page Navigation
+
+The in-page navigation list serves as a straightforward catalog of highlighted headings in a given document. In instances where multiple heading levels are utilized, the nested in-page navigation feature is activated, thereby enabling more intricate and efficient navigation.
+
+In mobile view, the in-page navigation will be presented as a dropdown menu, featuring relevant links to the document's headings. This dropdown list will be located at the top of the document, ensuring convenient and accessible navigation for mobile users.
+
+![in-page navigation](/articles/appwrite/in-page.webp)
+
+### Prev/Next Doc Navigation
+
+The "Prev" and "Next" buttons on a documentation page are usually used to navigate between different sections or topics in the documentation. They allow users to quickly move to the previous or next page in a sequence, without having to navigate back to the main menu or search for the next topic they want to read about.
+
+![prev/next doc navigation](/articles/appwrite/prevnext-light.webp)
+
+![prev/next doc navigation](/articles/appwrite/prevnext-dark.webp)
+
+### Feedback
+
+Including a feedback section at the bottom of a documentation page is important because it allows users to provide input on the documentation, which can improve its quality and help identify issues or gaps. This shows that you care about your users and their feedback, which can build trust and credibility.
+
+![feedback](/articles/appwrite/feedback.webp)
+
+### Tables
+
+The table component is taken directly from Pink design system with slight modifications. To make the table responsive, each row that appears in desktop view has been converted into its own block when viewed on mobile devices. This ensures that the table remains readable and user-friendly, regardless of the device being used to view it.
+
+![tables](/articles/appwrite/tables-desktop.webp)
+
+![tables](/articles/appwrite/tables-mobile.webp)
+
+## The Result
+
+The redesigned interface enhances the ease of navigation and documentation search. The introduction of the functionality to select various versions and SDKs within the side navigation bar provides users with a convenient way to choose SDKs and versions effortlessly. The mobile version of the documentation has been optimized, significantly improving the overall mobile experience. Additionally, the inclusion of a search box facilitates faster access to relevant documentation for users.
+
+This project served as a valuable opportunity to apply my product design and design thinking skills within a constrained and time-limited real-world scenario. I got to explore and learn more about documentation design.
+
+![device mockup](/articles/appwrite/device-final.webp)
+
+![light version](/articles/appwrite/final-light.webp)
+
+![dark version](/articles/appwrite/final-dark.webp)
+
+![mobile version](/articles/appwrite/final-mobile.webp)
+
+Discover high-quality images of [these prototypes](https://www.behance.net/gallery/179067083/Appwrite-Doc-Design-using-Pink-Design-System) on my [Behance](https://www.behance.net/asmitbm) account. Feel free to explore other projects as well! :)
+
+**Thanks for reading, until next time!**

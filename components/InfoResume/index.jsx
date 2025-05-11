@@ -51,12 +51,12 @@ export default function InfoResume() {
             <div className={styles.info_text}>
                 <div className={styles.info_text_one}>
                     <p>
-                        <AnimatedText content="As a Product Designer, I craft experiences that seamlessly blend aesthetics and functionality -" />
+                        <AnimatedText content="I design with a deep focus on human connection, turning ideas into experiences that feel intuitive, meaningful, and genuinely useful." />
                     </p>
-                </div>
+                </div> 
                 <div className={styles.info_text_two}>
                     <p>
-                        <AnimatedText content="to create solutions that truly resonate with users." />
+                        <AnimatedText content="My work is driven by empathy and the belief that design should not just look good, but work seamlessly for the people it’s meant to serve." />
                     </p>
                 </div>
             </div>
@@ -66,7 +66,7 @@ export default function InfoResume() {
             >
                 <Link
                     target="_blank"
-                    href="https://drive.google.com/file/d/1widnWPHsEyAQaInQxYVlgVemt1bjdDwp/view?usp=sharing"
+                    href="https://docs.google.com/document/d/1f9ICHESesu9CYE235K2lG0OSpzTGJB0oZOIirVqVPsQ/edit?usp=drive_link"
                 >
                     <div className={styles.resume_text}>
                         <h3>

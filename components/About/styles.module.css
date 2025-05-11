@@ -26,6 +26,10 @@
     font-size: clamp(2rem, 3vw + 0.9rem, 4rem);
     font-weight: 600;
 }
+.aboutme_text_heading h2 {
+    font-size: clamp(2rem, 2vw + 0.9rem, 4rem);
+    font-weight: 600;
+}
 
 .aboutme_text_line {
     display: flex;

@@ -1,9 +1,9 @@
 import Contact from "./page";
 
 export const metadata = {
-    title: "Contact Asmit Malakannawar",
+    title: "Contact Aishat Muibudeen",
     description:
-        "Connect with Asmit, feel free to drop a message. Share your thoughts, ask questions, or discuss potential collaborations.",
+        "Connect with Aishat, feel free to drop a message. Share your thoughts, ask questions, or discuss potential collaborations.",
 };
 
 export default Contact;
